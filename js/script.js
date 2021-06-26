@@ -44,6 +44,7 @@ const profit = +(totalPrice / 2 - (totalPrice * discount) / 100).toFixed(2);
 
 const list = document.querySelector(".list-block");
 
+
 list.innerHTML = `<ul>
                     <li>Максимальна ціна: ${maxValue}</li>
                     <li>Мінімальна ціна: ${minValue}</li>
